@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LUCKY WHEEL</title>
+
+
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.1.0/css/all.css'>
+
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+    <iframe src="audio/background.mp3" allow="autoplay" style="display: none;"></iframe>
+    <audio id="correct">
+        <source src="audio/correct.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="fail">
+        <source src="audio/applause10.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.   
+    </audio>
+    <div class="container">
+        <img class="background" src="img/background3.png" alt="failed to load">
+        <div class="wheel">
+            <img class="wheel__inner" src="img/turntable1.png" alt="">
+            <div class="wheel__arrow">
+                <button class="wheel__button">QUAY TAY</button>
+            </div>
+        </div>
+        <div class="congratulation">
+            <div class="congratulation__container">
+                <div class="congratulation__close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="congratulation__emotion"></div>
+                <p class="congratulation__note"></p>
+            </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.3.1.js'></script>
+
+
+
+    <script src="js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
